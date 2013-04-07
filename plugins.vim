@@ -29,6 +29,7 @@ Bundle 'FencView.vim'
 
 " Colors
 Bundle 'peaksea'
+Bundle 'wgibbs/vim-irblack'
 Bundle 'altercation/vim-colors-solarized'
 
 " Modes
