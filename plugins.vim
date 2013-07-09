@@ -26,6 +26,9 @@ Bundle 'kien/ctrlp.vim'
 
 Bundle 'FencView.vim'
 
+" Code structure
+Bundle "majutsushi/tagbar"
+
 " Colors
 Bundle 'peaksea'
 Bundle 'wgibbs/vim-irblack'
@@ -88,4 +91,9 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap Si S(i_<esc>f)
 au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => TagBar
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F8> :TagbarToggle<CR>
 
