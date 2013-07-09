@@ -12,6 +12,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'L9'
 Bundle 'mru.vim'
 Bundle 'YankRing.vim'
+Bundle 'nelstrom/vim-visual-star-search'
 
 " snipmate
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -36,6 +37,9 @@ Bundle 'altercation/vim-colors-solarized'
 
 " Modes
 Bundle "tpope/vim-markdown"
+
+" Python
+Bundle "pyflakes.vim"
 
 filetype plugin indent on
 
