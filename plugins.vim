@@ -29,6 +29,7 @@ Bundle 'FencView.vim'
 
 " Code structure
 Bundle "majutsushi/tagbar"
+Bundle "a.vim"
 
 " Colors
 Bundle 'peaksea'
