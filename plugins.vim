@@ -13,6 +13,7 @@ Bundle 'L9'
 Bundle 'mru.vim'
 Bundle 'YankRing.vim'
 Bundle 'nelstrom/vim-visual-star-search'
+Bundle 'scrooloose/nerdcommenter'
 
 " snipmate
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -41,6 +42,10 @@ Bundle "tpope/vim-markdown"
 
 " Python
 Bundle "pyflakes.vim"
+
+" Writing
+"Bundle "junegunn/goyo.vim"
+"Bundle "amix/vim-zenroom2"
 
 filetype plugin indent on
 
