@@ -24,7 +24,7 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'bufexplorer.zip'
 
 Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 
 Bundle 'FencView.vim'
 
