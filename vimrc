@@ -51,3 +51,7 @@ try
 catch
 endtry
 
+""""""""""""""""""""""""""""""""""""""""""""
+" 80 column layout concerns
+set cc=80
+
