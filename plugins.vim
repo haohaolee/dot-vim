@@ -1,51 +1,38 @@
-
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
 
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
+call plug#begin('~/.vim/plugged')
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'L9'
-Bundle 'mru.vim'
-Bundle 'YankRing.vim'
-Bundle 'nelstrom/vim-visual-star-search'
-Bundle 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-fugitive'
+Plug 'Lokaltog/vim-powerline'
+Plug 'L9'
+Plug 'mru.vim'
+Plug 'YankRing.vim'
+Plug 'nelstrom/vim-visual-star-search'
+Plug 'scrooloose/nerdcommenter'
 
 " snipmate
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tlib'
-Bundle 'garbas/vim-snipmate'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tlib'
+Plug 'garbas/vim-snipmate'
 
 
-Bundle 'bufexplorer.zip'
+Plug 'bufexplorer.zip'
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
 
-Bundle 'FencView.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+Plug 'FencView.vim'
 
 " Code structure
-Bundle "majutsushi/tagbar"
-Bundle "a.vim"
 
 " Colors
-Bundle 'peaksea'
-Bundle 'wgibbs/vim-irblack'
-Bundle 'altercation/vim-colors-solarized'
+Plug 'peaksea'
+Plug 'wgibbs/vim-irblack'
+Plug 'altercation/vim-colors-solarized'
 
-" Modes
-Bundle "tpope/vim-markdown"
-
-" Python
-Bundle "pyflakes.vim"
-
-" Writing
-"Bundle "junegunn/goyo.vim"
-"Bundle "amix/vim-zenroom2"
+call plug#end()
 
 filetype plugin indent on
 

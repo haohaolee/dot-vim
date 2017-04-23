@@ -53,5 +53,5 @@ endtry
 
 """"""""""""""""""""""""""""""""""""""""""""
 " 80 column layout concerns
-set cc=80
+set cc=120
 
